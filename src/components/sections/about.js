@@ -138,14 +138,11 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Some of the wonderful opportunities I've had during the past few years are creating
+              events and opportunities for women and non-binary students in tech as part of the{' '}
+              <a href="https://wics.uwaterloo.ca/"> Women in Computer Science</a> Committee, and
+              participating in <a href="https://www.uwmidsun.com/">Midnight Sun</a>, a student led
+              design team focued on developing innovative solar vehicles.
             </p>
 
             <p>

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { Link, useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import sr from '@utils/sr';
@@ -321,8 +321,6 @@ const Featured = () => {
               }
               tech
               github
-              external
-              cta
             }
             html
           }
@@ -410,6 +408,9 @@ const Featured = () => {
             );
           })}
       </StyledProjectsGrid>
+      <h2>
+        <Link to="https://github.com/ValerieFernandes">see all my projects here!</Link>
+      </h2>
     </section>
   );
 };

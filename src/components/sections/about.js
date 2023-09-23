@@ -81,8 +81,6 @@ const StyledPic = styled.div`
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
       transition: var(--transition);
     }
 
@@ -125,7 +123,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Java (SpringBoot)', 'React', 'SQL', 'C++', 'C# (.NET)', 'Python'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,10 +133,8 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Valerie and I’m currently a junior studying Software Engineering at
+              the University of Waterloo.
             </p>
 
             <p>
@@ -153,12 +149,9 @@ const About = () => {
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I’ve had the privilege of completing 3 internships, gaining a variety of experiences
+              in Backend development, and API creation. I am currently looking for work
+              opportunities for Summer 2024.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +166,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/valerie_photo.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Valerie Fernandes',
     description: 'Valerie Fernandes is a software engineer.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://valeriefernandes.vercel.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@valerie',
   },

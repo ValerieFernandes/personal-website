@@ -60,9 +60,9 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I’m currently seeking internship opportunities for Summer 2024! My inbox is always open.
-        whether you have an opportunity, question or just want to say hi, I’ll get back to you
-        promptly!
+        I’m currently seeking internship opportunities! My inbox is always open. whether you have an
+        opportunity, question or just want to say hi, I’ll get back to you promptly! P.S. find me
+        and other SE websited at https://se-webring.xyz/
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

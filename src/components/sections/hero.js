@@ -66,7 +66,7 @@ const Hero = () => {
       <p>
         I’m a software engineering student at the University of Waterloo. I’m passionate about
         finding ways to develop real world impact through software development. Currently seeking
-        Summer 2024 internships and would love to connect about any opportunities.
+        internships and would love to connect about any opportunities.
       </p>
     </>
   );

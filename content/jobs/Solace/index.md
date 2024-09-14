@@ -1,5 +1,5 @@
 ---
-date: 'Winhter 2023'
+date: 'Winter 2023'
 title: 'Cloud Software Developer'
 company: 'Solace'
 range: 'January - April 2023'

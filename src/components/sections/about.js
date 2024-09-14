@@ -123,7 +123,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Java (SpringBoot)', 'React', 'SQL', 'C++', 'C# (.NET)', 'Python'];
+  const skills = ['Golang', 'Python', 'React', 'SQL', 'C++'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -146,9 +146,9 @@ const About = () => {
             </p>
 
             <p>
-              I’ve had the privilege of completing 3 internships, gaining a variety of experiences
-              in Backend development, and API creation. I am currently looking for work
-              opportunities for Summer 2024.
+              I’ve had the privilege of completing 4 internships, gaining a variety of experiences
+              in Backend development, and API creation. I am currently looking for internship
+              opportunities for 2025.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
